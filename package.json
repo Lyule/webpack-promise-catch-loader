@@ -1,0 +1,28 @@
+{
+  "name": "webpack-promise-catch-loader",
+  "version": "0.0.2",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyule/webpack-promise-catch-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyule/webpack-promise-catch-loader/issues"
+  },
+  "homepage": "https://github.com/Lyule/webpack-promise-catch-loader#readme",
+  "devDependencies": {
+    "babylon": "^6.18.0",
+    "loader-utils": "^1.2.3",
+    "recast": "^0.18.2"
+  }
+}
