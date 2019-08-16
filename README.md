@@ -24,7 +24,8 @@ const webpackPromiseCatchLoader = require('webpack-promise-catch-loader')
       loader: webpackPromiseCatchLoader,
       options: {
         catchCode: `
-          console.log(error) // 自动添加error参数
+          console.log(error);
+          fetch(\`https://example.com'/log?message=\${error.message}\`).then(() => {})
         `
       }
     }
