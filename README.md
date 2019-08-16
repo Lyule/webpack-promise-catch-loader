@@ -1,9 +1,9 @@
 # webpack-promise-catch-loader
-> 根据 ![promise-catch-loader](https://github.com/xuqiang521/promise-catch-loader) 修改而来
+> 根据 [promise-catch-loader](https://github.com/xuqiang521/promise-catch-loader) 修改而来
 
 为你的promise添加catch。
 
-具体使用方法查看下方example，或者![example](https://github.com/Lyule/webpack-promise-catch-loader/example)
+具体使用方法查看下方example，或者 [example](https://github.com/Lyule/webpack-promise-catch-loader/example)
 
 ## options
 
